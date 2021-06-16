@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>account-page</title>
+    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+  <div class="header">
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+      <img src="logo5.png" width="125px">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="product-detail.html">Products</a></li>
+        <li><a href="home.html">About</a></li>
+        <li><a href="account.html">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="col-2">
+    <!--<h1>All types of car available here </h1>
+    <p>Success isn't always about greatness. It's about 
+      consistency.Consistent <br> hard work grain success. greatness
+      will come.</p>
+      <a href="" class="btn">Explore Now &#8594;</a>
+  </div>
+    <div class="col-2">-->
+      
+    </div>
+       
+
+  </div>
+</div>
+<!----account dns-->
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> Sign In </h2>
+    <h2 class="inactive underlineHover">Sign Up </h2>
+
+    
+
+    <!-- Login Form -->
+    <form>
+      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+      <input type="submit" class="fadeIn fourth" value="Log In">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div>
+
+<!-------- footer------->
+
+<div class="footer">
+  <div class="containerfluid">
+    <div class="row">
+    <div class="footer-col-1">
+      <h3>Download Our App</h3>
+      
+      <div class="app-logo">
+        <img src="google-play-badge.png">
+        <img src="5a902db97f96951c82922874.png">
+      </div>
+    </div>
+      
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>coupons</li>
+          <li>Blog Post</li>
+          <li>Reture Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>follow us</h3>
+        <ul>
+          <li>facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <p class="Copyright">Copyright 200 - Easy tutorials</p>
+</div>
+
+<!-------js for toggle form-->
+      <script>
+
+        var LoginForm = document.getElementById("LoginForm");
+        var RegFrom = document.getElementById("RegForm");
+        var Indicator = document.getElementById("Indicator")
+
+                 function register(){
+                   RegFrom.style.transform = "translatex(0px)";
+                   LoginFrom.style.transform = "translatex(0px)";
+                   Indicator.style.transform = "translatex(100px)";
+                 }
+
+                 function login(){
+                   RegFrom.style.transform = "translatex(300px)";
+                   LoginFrom.style.transform = "translatex(300px)";
+                   Indicator.style.transform = "translatex(0px)";
+                 }
+      </script>
+
+
+
+</body>
+</html>
